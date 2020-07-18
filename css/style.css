@@ -1,0 +1,199 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+  }
+  #showcase{
+    height:60vh;
+    background-image: linear-gradient(360deg, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url("https://picsum.photos/900/601");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+  }
+  #showcase nav {
+    background-color:rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 4px rgba(22,22,22,1);
+    padding: 13px 0;
+  }
+  #showcase nav ul {
+  padding-left: 0px;
+   list-style: none;
+   display:flex;
+   justify-content:center;
+  }
+  #showcase nav ul li {
+    text-align: center;
+    margin-right: 15px;
+  }
+  #showcase nav ul li a {
+  color:white;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 1s;
+  position:relative;
+  }
+  #showcase nav ul li a:hover {
+  text-decoration: none;
+  color:crimson;
+  }
+  #showcase .bienvenue {
+    min-height:75%;
+    text-align: center;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+  #showcase .bienvenue .txt p {
+   color:white;
+   font-size: 25px;
+   font-weight: 700;
+   padding:5px;
+  }
+  #showcase .bienvenue .btn button {
+   width:155px;
+   font-size: 16px;
+  margin:3px 3px;
+  padding: 8px 5px;
+  }
+/** section marge **/
+section:not(:first-child){
+    margin: 20px 0px;
+}
+#services .serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+
+}
+#services .fa-hand-holding-usd,.fa-laptop-code,.fa-dev {
+    margin: 15px 0px;
+}
+#services h3 {
+    margin: 15px 0px;
+}
+#cta .cta-img{
+  height: 40vh;
+  background-image: linear-gradient(360deg, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url("https://picsum.photos/900/603");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  padding: 10px;
+}
+#cta .cta-img .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+#cta .cta-img .container p{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top:25px;
+
+}
+#cta .cta-img .container .btn{
+  padding: 12px 40px;
+  font-size: 19px;
+}
+
+
+#gallery .container{
+  text-align: center;
+}
+#gallery .container img{
+  border-radius: 2rem;
+  width: 100%;
+  margin-bottom:22px;
+}
+#gallery .container h2{
+  font-size: 32px;
+  margin-bottom: 32px;
+  
+}
+
+
+
+
+#cta2 .cta-img{
+  height: 40vh;
+  background-image: linear-gradient(360deg, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url("https://picsum.photos/900/606");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+  padding: 10px;
+}
+#cta2 .cta-img .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+#cta2 .cta-img .container p{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top:25px;
+
+}
+#cta2 .cta-img .container .btn{
+  padding: 12px 40px;
+  font-size: 19px;
+}
+/* avi de client srection */
+#testimonials .container h2{
+  text-align: center;
+  font-size: 32px;
+}
+#testimonials .container .item img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+#testimonials .container .item{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#testimonials .container .item .star .fa-star{
+  color: gold;
+  margin: 0px 5px;
+}
+/* ------------footer style-----------------*/
+footer{
+  margin-bottom:1rem!important;
+  border-radius:10rem;
+  margin: 0rem 5rem;
+  background:black;
+  height: 20vh;
+}
+#footertxt{
+  color: white;
+  font-size: 1rem;
+}
+footer .container .copyright {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 20vh;
+}
+
+footer .container .smd  {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 20vh;
+}
+footer .container .smd .social svg {
+  color: white;
+  margin-right: 1rem;
+}
